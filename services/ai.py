@@ -4,7 +4,6 @@ import json
 from typing import Optional
 
 OPENAI_API_KEY = ""
-# openai.api_key = os.getenv("OPENAI_API_KEY") 
 openai.api_key = OPENAI_API_KEY
 
 SYSTEM_PROMPT = """You are a precise, honest resume coach. 
