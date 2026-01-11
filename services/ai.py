@@ -3,7 +3,7 @@ import openai
 import json
 from typing import Optional
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 # openai.api_key = os.getenv("OPENAI_API_KEY") 
 openai.api_key = OPENAI_API_KEY
 
